@@ -145,8 +145,12 @@ tr + tr {
 @media (min-width: 786px) {
   .card {
     max-width: 750px;
-    margin: 12vh auto;
+    margin: 15vh auto;
     border-radius: 15px;
+  }
+  .card__title {
+    font-size: 40px;
+    margin: 0.5em 0;
   }
   .hero__img {
     padding: 7.5% 7.5% 0;
@@ -154,6 +158,9 @@ tr + tr {
   }
   .hero__img .card__img {
     border-radius: 15px;
+  }
+  .card__h2 {
+    margin: 1em 0;
   }
   .attribution {
     display: block;
